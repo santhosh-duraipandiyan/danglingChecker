@@ -1,0 +1,12 @@
+{
+    "companies": [
+        "sec_test",
+        "prepladder"
+    ],
+    "providers": [
+        "aws",
+        "digitalOcean",
+        "cloudFlare",
+        "gcp"
+    ]
+}

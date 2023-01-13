@@ -1,0 +1,52 @@
+{
+    
+    "config": {
+        "sec_test": {
+            "check": {
+                "aws": true,
+                "digitalOcean": false,
+                "cloudFlare": false,
+                "gcp": false
+            },
+            "aws": [
+                "ap-south-1",
+                "us-east-1",
+                "ap-southeast-1"
+            ],
+            "digitalOcean": {
+                "apiKey": ""
+            },
+            "cloudFlare": {
+                "url": "",
+                "apiKey": ""
+            },
+            "gcp": {
+                "cloudPath": "",
+                "account": ""
+            }
+        },
+        "prepladder": {
+            "check": {
+                "aws": true,
+                "digitalOcean": false,
+                "cloudFlare": true,
+                "gcp": true
+            },
+            "aws": [
+                "ap-south-1",
+                "us-east-1"
+            ],
+            "digitalOcean": {
+                "apiKey": ""
+            },
+            "cloudFlare": {
+                "url": "https://api.cloudflare.com/client/v4/",
+                "apiKey": "Bearer pnitovBQtSdIoosk_T-8K7rDbY7_Oq6TBHCJG-xZ"
+            },
+            "gcp": {
+                "cloudPath": "/home/ubuntu/google-cloud-sdk/bin/gcloud",
+                "account": "%s config set account balaji.pr@unacademy.com"
+            }
+        }
+    }
+}

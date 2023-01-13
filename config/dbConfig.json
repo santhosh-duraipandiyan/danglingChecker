@@ -1,0 +1,14 @@
+{
+    "sec_test": {
+        "host": "localhost",
+        "user": "root",
+        "password": "dbms",
+        "database": "datacamp"
+    },
+    "prepladder": {
+        "host": "localhost",
+        "user": "root",
+        "password": "dbms",
+        "database": "datacamp"
+    }
+}
