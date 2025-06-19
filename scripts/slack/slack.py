@@ -23,7 +23,7 @@ def slackHandle(data, slackHandleData):
         })
 
 def slack(slackHandleData, company, data):
-    SLACK_HOOK_URL = "https://hooks.slack.com/services/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"
+    SLACK_HOOK_URL = "###"
     date = str(datetime.today().strftime('%Y-%m-%d'))
     if data:
         output = {
