@@ -2,13 +2,13 @@
     "sec_test": {
         "host": "localhost",
         "user": "root",
-        "password": "dbms",
+        "password": "###",
         "database": "datacamp"
     },
     "prepladder": {
         "host": "localhost",
         "user": "root",
-        "password": "dbms",
+        "password": "###",
         "database": "datacamp"
     }
 }
